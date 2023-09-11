@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: rgb(125, 122, 122);
+            }
+            li {
+                float: left;
+                border-right: 1px solid blue;
+            }
+            li a {
+                display:block;
+                color: blue;
+                text-align: center;
+                padding: 14px;
+                text-decoration: none;
+            }
+            li a:hover:not(.active) {
+                background-color: rgb(60, 52, 52);
+            }
+            .active{
+                background-color: rgb(66, 61, 61);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Horizantal Navigation Bar</h1>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="Java">Java</a></li>
+            <li><a href="CSS">CSS</a></li>
+            <li><a href="HTML">HTML</a></li>
+            <li><a href="Bootstrap">Bootstrap</a></li>
+        </ul>
+    </body>
+</html>    
